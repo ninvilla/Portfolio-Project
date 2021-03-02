@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "handlee", sans-serif;
+}
+
+.navbar, footer{
+    background-color: #406f32;
+    padding: 10px;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.carousel-caption h1, .carousel-caption h3{
+    text-shadow: 1px 1px 10px black;
+}
+.find-bff{
+    margin: 50px 0px 30px 0px;
+}
+.find-bff h1{
+    font-weight: bold;
+    color: #33658a;
+}
+.find-btn{
+    margin: 50px 0px 30px 0px;
+}
+.btn-primary{
+    background-color: #406f32;
+    border: none;
+}
+.profiles{
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+}
+.card{
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px #f6ae2d;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 2em;
+}
+.card-text{
+    font-size: 1.2em;
+}
+
+.jumbotron{
+    background-image: url("images/donate.jpg");
+    background-size: cover;
+    margin: 50px 0px 30px 0px;
+}
+.jumbotron h1, h5{
+    text-shadow: 1px 1px 10px black;
+}
+.newsletter h1 {
+    font-weight: bold;
+    color: #33658a;
+}
+.newsletter p{
+    font-weight: bold;
+    color: #33658a;
+    font-size: 1.2em;
+}
+form{
+    margin: 30px 10px 50px 10px;
+    padding: 10px;
+}
+.btn-secondary{
+    background-color: #33658a;
+    border: none;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-logo img, i{
+    color: white;
+    margin: 5px;
+}
+.footer-logo p{
+    font-size: 165%;
+    color: white;
+}
+.social-links .fa-facebook, .fa-instagram, .fa-twitter{
+    color: white;
+    margin: 5px;
+    font-size: 2em;
+
+}
+hr{
+    background-color: #f26419;;
+}
+
+@media only screen and (max-width: 480px){
+    .card{
+        margin: 10px 0px 10px 0px;
+    }
+    .carousel-caption h1{
+        font-size: 50%;
+    }
+    .carousel-caption h3{
+        font-size: 50%;
+    }
+    .carousel-caption .btn{
+        font-size: 25%;
+    }
+    .jumbotron h1, .jumbotron h5{
+        font-size: 75%;
+    }
+    .jumbotron .btn{
+        font-size: 25%;
+    }
+}
+@media only screen and (min-width: 481px){
+    .card{
+        margin: 10px 0px 10px 0px;
+    }
+    .card-text{
+        font-size: 75%;
+    }
+    .card1 .card-text{
+        margin-bottom: 50px;
+    }
+    .card2 .card-text{
+        margin-bottom: 35px;
+    }
+    .carousel-caption h1{
+        font-size: 150%;
+    }
+    .carousel-caption h3{
+        font-size: 100%;
+    }
+    .carousel-caption .btn{
+        font-size: 75%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .card-text{
+        font-size: 130%;
+    }
+    .card1 .card-text{
+        margin-bottom: 30px;
+    }
+    .card2 .card-text{
+        margin-bottom: 0px;
+    }
+    .card3 .card-text{
+        margin-bottom: 30px;
+    }
+    .carousel-caption h1{
+        font-size: 200%;
+    }
+    .carousel-caption h3{
+        font-size: 150%;
+    }
+    .carousel-caption .btn{
+        font-size: 100%;
+    }
+}
